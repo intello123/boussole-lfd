@@ -1,5 +1,6 @@
+let degres = 0
 basic.forever(function () {
-    let degres = 0
+    degres = input.compassHeading()
     if (degres < 45) {
         basic.showString("N")
     } else if (degres < 135) {
